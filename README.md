@@ -20,7 +20,14 @@ A GUI program written in Pygame using backtracking algorithm to generate sudokus
 * Ingame Timer.
 * Several bug fixes.
 * Specific Tutorials.
-* Sudoku Solver.
+* Automatic Sudoku Solver.
+
+# How to play
+* Select each cubes by hovering the mouse and cicking on it.
+* Press on the probable values (1-9) of that cube.
+* Press Enter if you are 100% sure of the value.
+* If you cant find any probable value, press SpaceBar (cheat),
+* it will then automatically find the perfect value for that selected cube
 
 # License
 Details can be found in [LICENSE](LICENSE)
