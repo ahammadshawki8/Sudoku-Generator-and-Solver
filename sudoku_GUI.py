@@ -8,6 +8,7 @@ import generator as gen
 pygame.init()
 win = pygame.display.set_mode((540,600))
 
+
 # Loading Images and Musics.
 poster = pygame.image.load("resources/poster.jpg")
 code_loop = pygame.image.load("resources/code_loop.jpg")
@@ -196,7 +197,7 @@ def format_time(secs):
 def main():
     pygame.display.set_caption("SUDOKU")
     clock = pygame.time.Clock()
-    screen_timer(win,100,poster,clock)
+    screen_timer(win,150,poster,clock)
     board = Grid(9, 9, 540, 540)
     key = None
     run = True
